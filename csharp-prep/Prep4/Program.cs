@@ -7,7 +7,6 @@ class Program
     {
         int userInput = -1;
         int sum = 0;
-        int guess = 0;
 
         //create a list object holder
         List<int> numbers = new List<int>();
