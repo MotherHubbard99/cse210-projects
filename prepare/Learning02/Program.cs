@@ -23,8 +23,5 @@ class Program
         myResume._jobs.Add(job2);
 
         myResume.Display();
-
-
-        Console.WriteLine("Hello Learning02 World!");
     }
 }
