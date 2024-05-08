@@ -1,4 +1,6 @@
 using System;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 
 class Program
 {
@@ -15,21 +17,39 @@ class Program
         Console.Write("> ");
         string promptGen = Console.ReadLine();
         
+        //create an instance of Promptgenerator
+        //PromptGenerator promptObject = new PromptGenerator();
+        //call the GetRandomPrompt() method
+        //string prompt = promptObject.GetRandomPrompt();
+        //Console.WriteLine($"{prompt}");
+        
+        //Create an instance of Journal
+        //Journal jourObject = new Journal();
+        
+
         if (promptGen == "1")
             {
-               PromptGenerator myPrompt = new PromptGenerator();
+                //Create an instance of Entry
+                Entry entryObject = new Entry();
+                //Call the AddEntry() method
+                entryObject.Display();
+                //Create an instance of Entry
             }
+
         else if (promptGen == "2")
             {
-
+                //Call the DisplayAll() method
+                //jourObject.DisplayAll();
             }
         else if (promptGen == "3")
             {
-                
+                //Call the SavetoFile() method
+                //jourObject.SaveToFile("");
             }
         else if (promptGen == "4")
             {
-
+                //Call the LoadFromFile() method
+               // jourObject.LoadFromFile("");
             }
         else if (promptGen == "5")
             {

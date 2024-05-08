@@ -12,7 +12,8 @@ public class PromptGenerator
             "What was the best part of my day? ",
             "How did I see the hand of the Lord in my life today? ",
             "If I had one thing I could do over today, what would it be? "
-
+            
+            
         };
         
         Random random = new Random();
