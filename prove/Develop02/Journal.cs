@@ -1,5 +1,7 @@
 using System.Diagnostics.Tracing;
 using System.Reflection;
+using System;
+using System.IO;
 
 public class Journal
 {

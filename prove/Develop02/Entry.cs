@@ -18,11 +18,13 @@ public class Entry
         Console.WriteLine($"{_promptText} ");
         //Have the user enter what they want in their journal
         _entryText = Console.ReadLine();
+        
+
         //Create an instance of Journal
-        Journal jourObject = new Journal();
+        //Journal jourObject = new Journal();
         //Call the AddEntry() method
-        Entry entryObject = new Entry();
-        jourObject.AddEntry(entryObject);
+        //Entry entryObject = new Entry();
+        //jourObject.AddEntry(entryObject);
 
     }
 }
